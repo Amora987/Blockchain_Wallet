@@ -4,3 +4,6 @@ Welcome to the FinTech Finder app! Many Fintech professionals are utilizing the 
 
 ## Webpage
 ![](screenshots/finder_options.PNG)
+
+## Transaction
+![](screenshots/transaction.PNG)
