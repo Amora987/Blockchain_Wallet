@@ -130,7 +130,7 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 # @TODO:
 #  Call the `generate_account` function and save it as the variable `account`
-account = generate_account
+account = generate_account()
 
 ##########################################
 
@@ -280,7 +280,7 @@ if st.sidebar.button("Send Transaction"):
 
 # The function that starts the Streamlit application
 # Writes FinTech Finder candidates to the Streamlit page
-get_people()
+get_people(w3)
 
 ################################################################################
 # Step 3: Inspect the Transaction
